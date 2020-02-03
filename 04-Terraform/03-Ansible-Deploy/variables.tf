@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "aws"
+  default = "natam"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/mydevops-aws.pem"
+  default = "/root/.ssh/pavan.pem"
 }
 
 variable "us-east-zones" {

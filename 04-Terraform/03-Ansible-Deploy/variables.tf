@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "vinni"
+  default = "aws"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/vinni-aws.pem"
+  default = "/root/.ssh/mydevops-aws.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-031cc6ed560919e37"
+  default = "sg-07c0b42ab963e41e9"
 }

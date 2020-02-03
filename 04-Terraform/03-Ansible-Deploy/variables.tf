@@ -1,15 +1,15 @@
 variable "key_name" {
-  default = "natam"
+  default = "mumbai
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/pavan.pem"
+  default = "/root/.ssh/mumbaiaws.em"
 }
 
 variable "us-east-zones" {
-  default = ["us-east-1a", "us-east-1b"]
+  default = ["ap-south-1a", "ap-south-1b"]
 }
 
 variable "sg-id" {
-  default = "sg-07c0b42ab963e41e9"
+  default = "sg-0e511c4a2cbba57dc"
 }
